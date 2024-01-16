@@ -1,0 +1,36 @@
+/* .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+} */
+
+.wrapper {
+  display: flex;
+}
+
+.sideNav {
+  width: 20%;
+  border-right: 5px solid var(--blue);
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.mainarea {
+  width: 80%;
+  margin: 20px 50px;
+}
+
+.footerC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 350px;
+}
+
+.d_flex {
+  display: flex;
+  justify-content: space-evenly;
+}
