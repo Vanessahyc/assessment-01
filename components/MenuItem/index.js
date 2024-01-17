@@ -4,13 +4,13 @@ export default function MenuItem({
     title="",
     bgColor,
     textColor,
-    tableft
+    tabLeft
 }) {
     return(
         <p style={{
             backgroundColor: bgColor, 
             color: textColor, 
-            paddingLeft: tableft
+            paddingLeft: tabLeft
         }} className={styles.mgright}>{title}</p>
     )
 }

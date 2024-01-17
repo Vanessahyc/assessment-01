@@ -36,12 +36,12 @@ export default function Home() {
               <Card title='Skills' description='Nextjs, HTML, CSS, JavaScript, Playwright, JEST' borderColor='5px solid blue' className={styles.skills}/>
               <Card title='Interests' description='I like biking' borderColor='5px solid violet'/>
             </div>
+            <div className={styles.footerC}>
+              <Footer/>
+            </div>
           </div>
         </div>
       </main>
-      <div className={styles.footerC}>
-        <Footer/>
-      </div>
     </>
   )
 }
